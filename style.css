@@ -1,3 +1,14 @@
+#background1{
+      background-image: url(https://wallpaperaccess.com/full/462778.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+#background2{
+  background-image: url(https://i.pinimg.com/originals/e3/d2/37/e3d237ce59b5a9d3525adf3c4f632b29.jpg);
+      background-repeat:repeat;
+      background-size: contain;
+}
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -74,7 +85,7 @@
 }
 
 #menu{
-    color:tomato;
+    color:rgb(246, 67, 35);
     text-align: center;
     text-decoration:overline;
     font-size: 50px;
@@ -102,7 +113,7 @@
     font-size: 40px;
     text-align: center;
     font-weight: bold;
-    color: tomato;
+    color: rgb(246, 67, 35);
     text-decoration:underline;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -111,7 +122,7 @@ h1#faq{
     font-size: 40px;
     text-align: center;
     font-weight: bold;
-    color: tomato;
+    color: rgb(246, 67, 35);
     text-decoration:underline;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -127,7 +138,7 @@ p#faq{
     font-size: 40px;
     text-align: center;
     font-weight: bold;
-    color: tomato;
+    color: rgb(246, 67, 35);
     text-decoration:underline;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
