@@ -2,6 +2,9 @@
       background-image: url(https://wallpaperaccess.com/full/462778.jpg);
       background-repeat: no-repeat;
       background-size: cover;
+      display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 #background2{
@@ -13,6 +16,7 @@
     background-color: #333;
     overflow: hidden;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
   }
