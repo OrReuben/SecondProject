@@ -42,10 +42,14 @@
     background-color: #04AA6D;
     color: white;
   }
+  
+  .active{
+    margin-left: 0.3rem;
+  }
 
-  .pizza-icon{
-    opacity:85%;
-    margin-left: 10px;
+  #logo{
+    margin-right: 100rem;
+    
   }
     
 #container{
