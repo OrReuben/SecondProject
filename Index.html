@@ -15,15 +15,17 @@
 </head>
 
 <body>
- <div id="background1">
   <div id="home"></div>
-  <div class="topnav">
-    <img class="pizza-icon1" src="https://cdn-icons-png.flaticon.com/512/2094/2094661.png" alt="pizzaicon" width="55rem" height="55rem">
+ <div id="background1">
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+  <img id="pizza-icon1" src="https://cdn-icons-png.flaticon.com/512/2094/2094661.png" alt="pizzaicon"></a>
+   <div id="navbar">
+     <div class="topnav">
     <a class="active" href="#home">Home</a>
-    <a class="pizza-icon" href="#menu">Menu</a>
-    <a class="pizza-icon" href="#faq">FAQ</a>
-    <a class="pizza-icon" href="#contact">Contact</a>
-    <img class="pizza-icon2" src="https://cdn-icons-png.flaticon.com/512/2094/2094661.png" alt="pizzaicon" width="55rem" height="55rem">
+    <a class="pizza-icon menuclicker" href="#menu">Menu</a>
+    <a class="pizza-icon faqclicker" href="#faq">FAQ</a>
+    <a class="pizza-icon contactclicker" href="#contact">Contact</a>
+  </div>
   </div>
   <div id="container">
     <h1 id="header">
@@ -55,128 +57,98 @@
 
   <div id="all-pizza">
     <div class="img-with-text">
-      <a href="#menu">
-        <img class="pizza" src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg" alt="pizza1"
-          width="430vh" height="340vh" /> </a>
-      <p class="description"><label for="icon">
-          <i id="No-Gluten" class="fa-solid fa-wheat-awn-circle-exclamation fa-2x"></i>
-        </label> Margarita Pizza </p>
+      <a class="pizzaimage" href="#menu">
+        <img class="pizza nogluten" src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg" alt="pizza1"
+        width="330vw" height="240vh" />
+        <div class="bottom-left"><i class="fa-solid fa-wheat-awn-circle-exclamation fa-2x"></i></div></a>
+      <p class="description">
+        Margarita Pizza</p>
       <p class="prices">ONLY 19.90$</p>
     </div>
 
     <div class="img-with-text">
-      <a href="#menu">
+      <a class="pizzaimage" href="#menu">
         <img class="pizza"
           src="https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80"
-          alt="pizza2" width="430vh" height="340vh" /> </a>
-
+          alt="pizza2" width="330vw" height="240vh" /> </a>
       <p class="description">Cheese Pizza</p>
       <p class="prices">ONLY 15.90$</p>
     </div>
 
     <div class="img-with-text">
-      <a href="#menu">
-        <img class="pizza"
+      <a class="pizzaimage" href="#menu">
+        <img class="pizza nogluten"
           src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-homemade-pizza-horizontal-1542312378.png?crop=1.00xw:1.00xh;0,0&resize=480:*"
-          alt="pizza3" width="430vh" height="340vh" /> </a>
-      <p class="description"><label for="icon">
-          <i id="No-Gluten" class="fa-solid fa-wheat-awn-circle-exclamation fa-2x"></i>
-        </label> Veggie Pizza</p>
+          alt="pizza3" width="330vw" height="240vh" />
+          <div class="bottom-left"><i class="fa-solid fa-wheat-awn-circle-exclamation fa-2x"></i></div></a>
+      <p class="description">
+        Veggie Pizza</p>
       <p class="prices">ONLY 15.90$</p>
     </div>
 
-    <a href="#menu">
-      <div class="img-with-text">
+    <div class="img-with-text">
+        <a class="pizzaimage" href="#menu">
         <img class="pizza"
           src="https://imageproxy.wolt.com/venue/6118f45903332b4dc24f1cd8/1ea60584-1527-11ec-9690-c6ea8fc97fd9_____________.jpg    "
-          alt="pizza4" width="430vh" height="340vh" />
-    </a>
+          alt="pizza4" width="330vw" height="240vh" /></a>
     <p class="description">Pepperoni Pizza</p>
     <p class="prices">ONLY 20.90$</p>
   </div>
 
-  <a href="#menu">
-    <div class="img-with-text">
+  <div class="img-with-text">
+      <a class="pizzaimage" href="#menu">
       <img class="pizza" src="https://medias.hashulchan.co.il/www/uploads/2020/12/shutterstock_658408219-600x600.jpg"
-        alt="pizza5" width="430vh" height="340vh" />
-  </a>
+        alt="pizza5" width="330vw" height="240vh" /> </a>
   <p class="description">Meat Pizza</p>
   <p class="prices">ONLY 23.90$</p>
   </div>
 
-  <a href="#menu">
-    <div class="img-with-text">
-      <img class="pizza" src="https://www.delonghi.com/Global/recipes/multifry/pizza_fresca.jpg" alt="pizza6"
-        width="430vh" height="340vh" />
-  </a>
-  <p class="description"><label for="icon">
-      <i id="No-Gluten" class="fa-solid fa-wheat-awn-circle-exclamation fa-2x"></i>
-    </label> BBQ Chicken Pizza</p>
+  <div class="img-with-text">
+      <a class="pizzaimage" href="#menu">
+      <img class="pizza nogluten" src="https://www.delonghi.com/Global/recipes/multifry/pizza_fresca.jpg" alt="pizza6"
+        width="330vw" height="240vh" />
+        <div class="bottom-left"><i class="fa-solid fa-wheat-awn-circle-exclamation fa-2x"></i></div></a>
+  <p class="description">BBQ Chicken Pizza</p>
   <p class="prices">ONLY 25.90$</p>
   </div>
 
-  <a href="#menu">
-    <div class="img-with-text">
-      <img class="pizza" src="https://images.alphacoders.com/959/thumb-1920-959369.jpg" alt="pizza7" width="430vh"
-        height="340vh" />
-  </a>
-  <p class="description"><i class="fa-solid fa-leaf fa-2x"></i> Hawaiian Pizza</p>
-  <p class="prices">ONLY 23.90$</p> </a>
+  <div class="img-with-text">
+      <a class="pizzaimage" href="#menu">
+      <img class="pizza" src="https://images.alphacoders.com/959/thumb-1920-959369.jpg" alt="pizza7" width="330vw" height="240vh" />
+      <div class="bottom-left"><i class="fa-solid fa-leaf fa-2x"></i></div></a>
+  <p class="description"> Hawaiian Pizza</p>
+  <p class="prices">ONLY 23.90$</p>
   </div>
 
-  <a href="#menu">
-    <div class="img-with-text">
+  <div class="img-with-text">
+      <a class="pizzaimage" href="#menu">
       <img class="pizza" src="https://s1.1zoom.me/b6049/920/Pizza_Cheese_Piece_540633_1920x1080.jpg" alt="pizza8"
-        width="430vh" height="340vh" />
-  </a>
-  <p class="description"><i class="fa-solid fa-leaf fa-2x"></i> Buffalo Pizza</p>
+        width="330vw" height="240vh" />
+        <div class="bottom-left"><i class="fa-solid fa-leaf fa-2x"></i></div></a>
+  <p class="description"> Buffalo Pizza</p>
   <p class="prices">ONLY 21.90$</p>
   </div>
 
-  <a href="#menu">
-    <div class="img-with-text">
-      <img class="pizza" src="https://p4.wallpaperbetter.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg"
-        alt="pizza9" width="430vh" height="340vh" />
-  </a>
-  <p class="description"><label for="icon">
-      <i id="No-Gluten" class="fa-solid fa-wheat-awn-circle-exclamation fa-2x"></i>
-    </label> Supreme Pizza</p>
+  <div class="img-with-text">
+      <a class="pizzaimage" href="#menu">
+      <img class="pizza " src="https://p4.wallpaperbetter.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg"
+        alt="pizza9" width="330vw" height="240vh" />
+        <div class="bottom-left"><i class="fa-solid fa-wheat-awn-circle-exclamation fa-2x"></i></div></a>
+  <p class="description"> Supreme Pizza</p>
   <p class="prices">ONLY 21.90$</p>
   </div>
   </div>
   <div>
     <p class="i-desc"><i class="fa-solid fa-leaf fa-2x"></i> - Vegeterian</p>
-    <p class="i-desc"> <label for="icon">
-        <i id="No-Gluten" class="fa-solid fa-wheat-awn-circle-exclamation fa-2x"></i>
-      </label> - Gluten Free</p>
+    <p class="i-desc"><i class="fa-solid fa-wheat-awn-circle-exclamation fa-2x"></i>
+        - Gluten Free</p>
   </div>
 
-  <style>
-    table {
-      font-family: arial, sans-serif;
-      border-collapse: collapse;
-      width: 100%;
-    }
-
-    td,
-    th {
-      border: 1px solid #dddddd;
-      text-align: left;
-      padding: 8px;
-    }
-
-    tr:nth-child(even) {
-      background-color: #dddddd;
-    }
-  </style>
-  </head>
-
-  <body>
     <br><br><br><br><br><br><br>
     <h2 id="price">Prices</h2>
 
     <table>
-      <tr>
+      <tr class="columnheader">
         <th>Description</th>
         <th>Price</th>
         <th>Spicy</th>
@@ -296,50 +268,7 @@
 
     <h1 id="contact">Contact us!</h1>
 
-    <style>
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-      }
 
-      * {
-        box-sizing: border-box;
-      }
-
-      input[type=text],
-      select,
-      textarea {
-        width: 100%;
-        padding: 12px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-        margin-top: 6px;
-        margin-bottom: 16px;
-        resize: vertical;
-      }
-
-      input[type=submit] {
-        background-color: #04AA6D;
-        color: white;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-      }
-
-      input[type=submit]:hover {
-        background-color: #45a049;
-      }
-
-      .container {
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        padding: 20px;
-      }
-    </style>
-    </head>
-
-    <body>
 
 
       <div class="container">
@@ -360,26 +289,12 @@
 
           <label for="subject">Reason of contact</label>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-          <label for="checkbox">I AGREE TO THE TERMS</label>
-          <input type="button" id="lbutton" name="button" placeholder=""> <br><br>
+          <p><input type="checkbox" id="lbutton" name="button" placeholder="number"> I AGREE TO THE TERMS</p> <br> <br>
           <input type="submit" value="Submit">
         </form>
       </div>
-
-
-      <div class="topnav">
-        <img class="pizza-icon" src="https://cdn-icons-png.flaticon.com/512/2094/2094661.png" alt="pizzaicon" width="55rem" height="55rem">
-        <a class="active" href="#home">Home</a>
-        <a class="pizza-icon" href="#menu">Menu</a>
-        <a class="pizza-icon" href="#faq">FAQ</a>
-        <a class="pizza-icon" href="#contact">Contact</a>
-        <img class="pizza-icon" src="https://cdn-icons-png.flaticon.com/512/2094/2094661.png" alt="pizzaicon" width="55rem" height="55rem">
-      </div>
     </div>
-
-
-
+      
 
     </body>
 
