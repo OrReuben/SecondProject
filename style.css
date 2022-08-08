@@ -1,43 +1,6 @@
- body {
-        font-family: Arial, Helvetica, sans-serif;
-        box-sizing: border-box;
- }
- .about-section{
-  margin-bottom: 1px;
- }
+/* home page code start */
 
-      input[type=text],
-      select,
-      textarea {
-        width: 100%;
-        padding: 12px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-        margin-top: 6px;
-        margin-bottom: 16px;
-        resize: vertical;
-      }
-
-      input[type=submit] {
-        background-color: #04AA6D;
-        color: white;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-      }
-
-      input[type=submit]:hover {
-        background-color: #45a049;
-      }
-
-      .container {
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        padding: 20px;
-      }
-#background1 {
+#background-image1 {
   background-image: url(https://wallpaperaccess.com/full/462778.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,114 +10,86 @@
   flex-wrap: wrap;
 }
 
-#background2 {
-  background-image: url(https://i.pinimg.com/originals/e3/d2/37/e3d237ce59b5a9d3525adf3c4f632b29.jpg);
-  background-repeat: repeat;
-  background-size: contain;
-  opacity: 90%;
-}
-
-#navbar{
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-
-}
-
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2; 
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #04aa6d;
-  color: white;
-  transition: 500ms;
-
-}
-
-.active {
-  text-decoration: none !important;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  width: 80px;
-  transition:width 500ms;
-}
-
-.active:hover{
-  width: 100px;
-  transition:width 500ms;
-}
-
-.pizza-icon{
-  width: 6%;
-  transition: width 500ms;
-  text-decoration: none !important;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  color: tomato !important;
-  transition: 400ms;
-}
-
-.menuclicker{
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.faqclicker{
-  margin-right: 10px;
-}
-
-.contactclicker{
-  margin-left: -10px;
-}
-
-.pizza-icon:hover{
-  width: 8%;
-  transition: width 500ms;
-  color:gray !important;
-  transition: 400ms;
-}
-
-#pizza-icon1{
+/* Navbar code start*/
+#pizza-icon1 {
   width: 3rem;
   height: 3rem;
   transition: width 400ms, height 400ms;
   position: fixed;
   z-index: 2;
   margin-left: 10px;
-  margin-top: 3px;
+  margin-top: 7px;
   opacity: 80%;
-  
+  text-align: center;
 }
 
-#pizza-icon1:hover{
-  margin-top: 5px;
-  width:2.7rem;
-  height:2.7rem;
+#pizza-icon1:hover {
+  margin-top: 8px;
+  width: 2.7rem;
+  height: 2.7rem;
   transition: width 400ms, height 400ms, margin-top 400ms;
 }
 
+.topnav {
+  background-color: #333;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+}
+
+.navbar-sub {
+  color: tomato;
+  text-align: center;
+}
+
+.topnav a {
+  padding: 18px;
+  text-decoration: none !important;
+  width: 9%;
+  transition: width 500ms;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(80, 80, 80);
+  transition: 400ms;
+  width: 10%;
+  transition: width 500ms;
+  color: gray !important;
+  transition: 400ms;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+  text-decoration: none !important;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  width:10%;
+  transition: width 500ms;
+  text-align: center;
+}
+
+.topnav a.active:hover {
+  color: tomato !important;
+  width:12% !important;
+  width: 100px;
+  transition: width 500ms;
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+/* Navbar code end */
+/* Container code start */
 #container {
   background-color: #00000095;
   width: 22rem;
@@ -162,12 +97,11 @@
   color: white;
   text-align: center;
   margin: 10px;
-  margin-top: 10px;
-  padding-top: 5px;
+  margin-top: 65px !important;
 }
 
 #header {
-  margin-top: 15vh;
+  margin-top: 10vh;
 }
 
 #par {
@@ -178,28 +112,47 @@
 
 #header2 {
   margin-top: 10vh;
-  margin-bottom: 30px;
   font-family: "Courier New", Courier, monospace;
 }
 
-.push {
-  margin-left: 50px;
-  background-color: #009b7770 !important;
-  padding: 10px;
+.btn-warning {
+  color: black;
+  width: 130px;
+  transition: width 500ms, color 500ms;
 }
+.btn-warning:hover {
+  color: green !important;
+  font-weight: bold;
+  width: 145px;
+  transition: width 300ms, color 300ms, font-weight 400ms;
+}
+/* Container code end */
+/* home page code end */
 
-#start {
-  display: flex;
-  justify-content: center;
+/* menu page code start */
+#background2 {
+  background-image: url(https://i.pinimg.com/originals/e3/d2/37/e3d237ce59b5a9d3525adf3c4f632b29.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+  opacity: 90%;
 }
 
 #menu {
   color: rgb(246, 67, 35);
+  
   text-align: center;
   text-decoration: overline;
   font-size: 50px;
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
+}
+#all-img-with-text {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .img-with-text {
@@ -208,34 +161,92 @@
   color: white;
 }
 
-.pizza{
+.product-description {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(78, 78, 78);
+  text-decoration: dashed;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.product-prices {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #009b77;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+  text-decoration: overline;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.img-without-text {
   border-radius: 10%;
-  width:27vw;
+  width: 27vw;
   height: 37vh;
   transition: width 400ms;
 }
 
-.pizza:hover{
-  width:28vw;
+.img-without-text:hover {
+  width: 28vw;
   height: 39vh;
-  transition: width 400ms, height 400ms
+  transition: width 400ms, height 400ms;
 }
 
-.bottom-left {
-  position: absolute;
-  bottom: 115px;
-  left: 15px;
-}
-
-
-#all-pizza {
+.image-link {
   position: relative;
-  z-index: 0;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  flex-wrap: wrap;
-  
+  width: 50%;
+}
+
+.text {
+  font-size: 10px;
+  -webkit-text-stroke: 1px black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+opacity: 0%;
+transition: opacity 300ms;
+}
+
+.image-link:hover .overlay {
+  opacity: 1;
+}
+
+
+.fa-wheat-awn-circle-exclamation {
+  color: green;
+}
+
+.fa-leaf {
+  color: #1aff00;
+}
+
+.fa-cannabis{
+  color: #009b77;
+}
+
+.i-desc {
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+  color: black;
+  text-decoration: dashed;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 #price {
@@ -247,6 +258,34 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.columnheader {
+  font-weight: bold;
+}
+
+td,
+th {
+  border: 2px solid white !important;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(177, 176, 176);
+}
+
+/* menu page code end */
+
+/* faq code start */
 h1#faq {
   font-size: 40px;
   text-align: center;
@@ -263,119 +302,11 @@ p#faq {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-#contact {
-  font-size: 40px;
+.about-section {
+  padding: 50px;
   text-align: center;
-  font-weight: bold;
-  color: rgb(246, 67, 35);
-  text-decoration: underline;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-.description {
-  font-size: 20px;
-  text-align: center;
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: rgb(78, 78, 78);
-  text-decoration: dashed;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-.prices {
-  font-size: 30px;
-  text-align: center;
-  font-weight: bold;
-  color: #009B77;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #000000;
-  text-decoration: overline;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:visited {
-  color: #dd4124;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:hover {
-  color: red !important;
-  background-color: transparent;
-  text-decoration: underline;
-}
-a:active {
-  color: yellow !important;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-.fa-wheat-awn-circle-exclamation {
-  color: green;
-  
-}
-.hiddentext{
-  visibility: visible;
-}
-
-.fa-leaf {
-  color: #1aff00;
-}
-
-
-
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-.columnheader{
-  font-weight: bold;
-}
-
-td,
-th {
-  border: 2px solid white !important;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) { 
-  background-color: #dddddd;
-}
-
-tr:nth-child(odd) { 
-  background-color: rgb(177, 176, 176);
-}
-
-.i-desc {
-  font-size: 20px;
-  text-align: left;
-  font-weight: bold;
-  color: black;
-  text-decoration: dashed;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
+  background-color: #474e5d;
+  color: white;
 }
 
 .column {
@@ -385,31 +316,47 @@ html {
   padding: 0 8px;
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
+.contact-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
+/* faq code end */
 
-.about-section {
-  padding: 50px;
+/* contact code start */
+#contact {
+  font-size: 40px;
   text-align: center;
-  background-color: #474e5d;
+  font-weight: bold;
+  color: rgb(246, 67, 35);
+  text-decoration: underline;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
   color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.container {
-  padding: 0 16px;
-}
-
-.container::after,
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
+input[type="submit"]:hover {
+  background-color: #45a049;
 }
 
 .button {
@@ -427,63 +374,89 @@ html {
 .button:hover {
   background-color: #555;
 }
+/* contact code end */
 
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
+/* if screen 768px start */
+@media only screen and (max-width: 768px) {
+  /* navbar for 768px start */
+  .topnav{
+  font-size: 10px;
+}
+.topnav a{
+  width: 15%;
 }
 
-.faq-header {
-  font-size: 40px;
-  text-align: center;
-  font-weight: 100;
-  color: #ff5956;
-  text-decoration: overline;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+.topnav a:hover{
+  width:19%
 }
 
-@media only screen and (max-width: 768px)  { 
-  
-  .active{
-    margin-left: 10px;
-  }
-  .topnav {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content:left;
-    padding-left: 60px;
-  }
-  .pizza-icon{
-    margin-left: 20px;
-  }
-  .menuclicker{
-    margin-left: -2px;
-    margin-right:15px;
-  }
-  
-#container{
-  background-color: #00000095;
-  width: 14rem;
-  height: 50rem;
-  color: white;
+.topnav a.active{
+  width: 20%;
+}
+.topnav a.active:hover{
+  width: 23%;
+}
+
+#pizza-icon1 {
+  width: 2.5rem;
+  height: 2.5rem;
+  transition: width 400ms, height 400ms;
+  position: fixed;
+  z-index: 2;
+  margin-left: 3px;
+  margin-top: 6px;
+  opacity: 80%;
   text-align: center;
-  margin: 10px;
-  margin-top: 10px;
-  padding-top: 5px; }
+}
+/* navbar for 768px end */
+/* container for 768px start */
+  #container {
+    background-color: #00000095;
+    width: 14rem;
+    height: 50rem;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    margin-top: 10px;
+    padding-top: 5px;
+  }
 
   #header {
     margin-top: 120px;
-    font-size:x-large;
+    font-size: x-large;
   }
-  
+
   #par {
     font-size: 12px;
   }
-  
+
   #header2 {
     font-size: 15px;
   }
+
+/* container for 768px end */
+/* images for 768px start */
+.img-without-text {
+  border-radius: 10%;
+  width: 37vw;
+  height: 26vh;}
+
+  .img-without-text:hover{
+    width: 38vw;
+    height: 28vh;
+  }
+  .product-description {
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+.product-prices {
+  font-size: 20px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 90px;
+  left: 9px;
+}
 }
