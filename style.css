@@ -378,6 +378,7 @@ input[type="submit"]:hover {
 }
 /* contact code end */
 
+
 /* if screen 768px start */
 @media only screen and (max-width: 768px) {
   /* navbar for 768px start */
@@ -399,6 +400,7 @@ input[type="submit"]:hover {
   width: 23%;
 }
 
+
 #pizza-icon1 {
   width: 2.5rem;
   height: 2.5rem;
@@ -410,6 +412,7 @@ input[type="submit"]:hover {
   opacity: 80%;
   text-align: center;
 }
+
 /* navbar for 768px end */
 /* container for 768px start */
   #container {
@@ -425,15 +428,15 @@ input[type="submit"]:hover {
 
   #header {
     margin-top: 120px;
-    font-size: x-large;
+    font-size: 2rem;
   }
 
   #par {
-    font-size: 12px;
+    font-size: 1rem;
   }
 
   #header2 {
-    font-size: 15px;
+    font-size: 1.2rem;
   }
 
 /* container for 768px end */
