@@ -417,7 +417,7 @@ input[type="submit"]:hover {
 /* container for 768px start */
   #container {
     background-color: #00000095;
-    width: 14rem;
+    width: 16rem;
     height: 50rem;
     color: white;
     text-align: center;
@@ -432,11 +432,11 @@ input[type="submit"]:hover {
   }
 
   #par {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 
   #header2 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
 /* container for 768px end */
